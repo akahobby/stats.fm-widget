@@ -1,0 +1,37 @@
+{
+  "name": "statsfm-widget",
+  "version": "1.0.0",
+  "description": "Discord profile widget bot powered by stats.fm and Spotify presence",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "discord",
+    "stats.fm",
+    "profile-widget",
+    "spotify",
+    "bot"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akahobby/stats.fm-widget.git"
+  },
+  "dependencies": {
+    "axios": "^1.10.0",
+    "discord.js": "^14.21.0",
+    "dotenv": "^16.6.1",
+    "zod": "^3.25.67"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.32",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}
